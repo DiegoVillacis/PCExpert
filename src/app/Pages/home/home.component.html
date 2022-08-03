@@ -1,1 +1,15 @@
-<p>home works!</p>
+<p>PC Expert</p>
+<div class="container">
+    <h1>{{title}}</h1>
+  
+    <div class="search-bar">
+      <input type="text" class="search" placeholder="¡Comienza a buscar tu plato favorito!" (keyup)="searchTerm$.next($event.target.value)">
+    </div>
+  
+    <ul *ngFor="let item of listFiltered" class="list">
+      <li>
+        {{item}}
+      </li>
+    </ul>
+  
+  </div>
