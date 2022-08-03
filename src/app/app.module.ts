@@ -12,11 +12,12 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     SidenavComponent,
     HomeComponent,
     DetalleComponent
+
   ],
   imports: [
     BrowserModule
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
